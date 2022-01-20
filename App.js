@@ -24,7 +24,7 @@ function App() {
  const headers = {'Content-Type': 'application/json','Accept': 'application/json'};
 	
  const handleCheck = (evt) => {
-    evt.preventDefault();
+	evt.preventDefault();
 		
 	if(email)
 	{
@@ -52,7 +52,7 @@ function App() {
    const handleLogin = (evt) => {
 	   
 	if(evt)
-		evt.preventDefault();
+	   evt.preventDefault();
 
 	if(email && password)
 	{
